@@ -158,32 +158,33 @@ def main():
     # A* with 8-Puzzle 
     # An example for you to follow to get you started on the EightPuzzle
     print('Eight puzzle with only initial state input:')
-    print('=======================')
     print(ep.eight_puzzle_init())
+    print('=======================')
+
 
     print('Eight puzzle given intitial state and goal:')
-    print('==================')
     print(ep.eight_puzzle_init_goal())
+    print('=======================')
 
     print('Problem 1d result:')
-    print('==================')
     print(ep.eight_puzzle_with_manhattan_distance_heuristic())
+    print('=======================')
 
     print('Problem 1e result:')
-    print('==================')
     print(ep.comparing_heuristics())
+    print('=======================')
 
     print('Problem 2 example')
-    print('==================')
     print(ep.romania_map_bfs())
+    print('=======================')
 
     print('Problem 2a result:')
-    print('==================')
     print(ep.romania_map_bfs_dfs_ids())
+    print('=======================')
 
     print('Problem 2b result:')
-    print('==================')
     print(ep.romania_map_ids_uc_astar())
+    print('=======================')
 
     
 if __name__ == '__main__':
