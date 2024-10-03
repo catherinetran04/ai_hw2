@@ -4,7 +4,7 @@
     squares is a blank. A state is represented as a tuple of length 9, where  element at
     index i represents the tile number  at index i (0 if it's an empty square) """
 
- #EightPuzzle example with A*
+ # EightPuzzle example with A*
         # Default goal is (1, 2, 3, 4, 5, 6, 7, 8, 0)
         #   which represents:   1 2 3
         #                       4 5 6
